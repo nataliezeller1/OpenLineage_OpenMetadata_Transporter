@@ -1,0 +1,2 @@
+# OpenLineage_OpenMetadata_Transporter
+Custom transporter for integrating OpenLineage with OpenMetadata
