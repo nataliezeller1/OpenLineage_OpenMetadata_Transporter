@@ -1,9 +1,9 @@
 # OpenLineage_OpenMetadata_Transporter
 This is an extension for the [OpenLineage](https://github.com/OpenLineage/OpenLineage) project, providing a custom transporter for integrating OpenLineage with OpenMetadata.
 Lineage collected by OpenLineage will be transmitted to OpenMetadata through APIs, including:
-1. Create/update the pipeline service.
-2. Create/update the pipeline.
-3. Create/update the lineage edge, connecting the inlet/outlet tables collected by OpenLineage to the pipeline.
+1. Create/update pipeline service.
+2. Create/update pipeline.
+3. Create/update lineage edge, connecting the inlet/outlet tables collected by OpenLineage to the pipeline.
 
 Using the 'openMetadata' transport type requires adding the following spark configuration parameters:
 
