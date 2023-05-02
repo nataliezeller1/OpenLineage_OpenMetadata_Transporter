@@ -5,6 +5,8 @@ Lineage collected by OpenLineage will be transmitted to OpenMetadata through API
 2. Create/update pipeline.
 3. Create/update lineage edge, connecting the inlet/outlet tables collected by OpenLineage to the pipeline.
 
+Note: lineage will be reported only for tables that already exist in OpenMetadata metadata store.
+
 Using the 'openMetadata' transport type requires adding the following spark configuration parameters:
 
 | Parameter                                    | Definition                                                                                    | Example                                    |
