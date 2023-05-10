@@ -4,6 +4,7 @@ Lineage collected by OpenLineage will be transmitted to OpenMetadata through API
 1. Create/update pipeline service.
 2. Create/update pipeline.
 3. Create/update lineage edge, connecting the inlet/outlet tables collected by OpenLineage to the pipeline.
+4. Update custom property "lastUpdateTime" for output tables.
 
 Note: lineage will be reported only for tables that already exist in OpenMetadata metadata store.
 
